@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style media="screen">
+    body {
+      height: 100vh;
+      margin: 0;
+      width: 100%;
+      background-color: #c40d0d;
+    }
+
+    header {
+      text-align: right;
+      margin-right: 5em;
+      width: 100vw;
+      margin: 0 auto;
+      background-color: #000000;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    #principal {
+      width: 95%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 1em;
+      text-align: center;
+    }
+
+    img {
+      width: 15em;
+      height: 15em;
+
+    }
+
+    header img {
+      width: 25%;
+      margin-right: 38em;
+    }
+
+    .pelicula {
+      margin: 1em;
+      margin-top: 5em;
+      width: 250;
+      background-color: LightGray;
+      border: 1px solid black;
+    }
+    #buscador{
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="https://chewtech.com.mx/wp-content/uploads/2020/04/Netflix-Logo.png" alt="">
+    <div id="buscador">
+      <input type="text" name="" value="" id="txtbusqueda" placeholder="Escribe aqui...">
+      <button type="button" name="button" onclick="llamada()">Buscar</button>
+    </div>
+  </header>
+  <div class="" id="bloque"></div>
+
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
